@@ -120,7 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="Category add.aspx" />
+    <Content Include="CatagoryView.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -140,7 +140,6 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
-    <Content Include="Dishlist.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="image\add cate.jpeg" />
@@ -222,8 +221,6 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
-    <Content Include="Userlist.aspx" />
-    <Content Include="view order.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -239,12 +236,12 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Category add.aspx.cs">
-      <DependentUpon>Category add.aspx</DependentUpon>
+    <Compile Include="CatagoryView.aspx.cs">
+      <DependentUpon>CatagoryView.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Category add.aspx.designer.cs">
-      <DependentUpon>Category add.aspx</DependentUpon>
+    <Compile Include="CatagoryView.aspx.designer.cs">
+      <DependentUpon>CatagoryView.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -259,13 +256,6 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Dishlist.aspx.cs">
-      <DependentUpon>Dishlist.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Dishlist.aspx.designer.cs">
-      <DependentUpon>Dishlist.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -313,26 +303,12 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
-    <Compile Include="Adminmaster.Master.cs">
-      <DependentUpon>Adminmaster.Master</DependentUpon>
+    <Compile Include="User.Master.cs">
+      <DependentUpon>User.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Adminmaster.Master.designer.cs">
-      <DependentUpon>Adminmaster.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Userlist.aspx.cs">
-      <DependentUpon>Userlist.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Userlist.aspx.designer.cs">
-      <DependentUpon>Userlist.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="view order.aspx.cs">
-      <DependentUpon>view order.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="view order.aspx.designer.cs">
-      <DependentUpon>view order.aspx</DependentUpon>
+    <Compile Include="User.Master.designer.cs">
+      <DependentUpon>User.Master</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
@@ -349,7 +325,7 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
-    <Content Include="Adminmaster.Master" />
+    <Content Include="User.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

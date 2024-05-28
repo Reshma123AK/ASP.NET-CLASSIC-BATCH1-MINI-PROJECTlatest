@@ -65,6 +65,8 @@
     <Compile Include="ADMIN\Property\Categorypro.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User\Manager\CatagoryManager.cs" />
+    <Compile Include="User\Property\CatagoryPro.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

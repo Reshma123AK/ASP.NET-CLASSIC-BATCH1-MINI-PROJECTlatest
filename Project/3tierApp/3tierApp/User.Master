@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="_3tierApp.User" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .Maindiv{
+            width:1000px;
+            
+            background-color:dimgray;
+           
+        }
+        .menu{
+            list-style:none;
+        }
+        .menulist{
+        display:inline;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="Maindiv">
+           
+            <ul class="menu">
+                <li class="menulist"><img src="Images/logo.jpeg" height="68px"  /></li>
+                <li class="menulist"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                 
+                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></li>
+                <li class="menulist">&nbsp;&nbsp;<img src="Images/sear.png" height="35" /></li>
+                <li class="menulist">&nbsp;&nbsp;&nbsp; &nbsp; <img src="Images/Catagory.png" height="35"/></li>
+                <li class="menulist"> &nbsp;&nbsp;&nbsp;&nbsp; <img  src="Images/home.jpeg" height="35"/></li>
+                <li class ="menulist">&nbsp;&nbsp;&nbsp;&nbsp; <img src="Images/uer.png" height="35"/></li>
+                <li class="menulist">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="Images/back.png" height="35" /></li>
+                <li class="menulist">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="Images/feedback.png" height="35" />
+
+                </li>
+                <li class="menulist" >
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="Images/logout.jpeg" height="35" />
+                </li>
+           </ul>
+           <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+</asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
