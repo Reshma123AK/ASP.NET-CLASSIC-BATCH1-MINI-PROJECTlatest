@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL.User.Property
 {
-    public class CatagoryPro
+    public class CatagoryPro  
     {
         public int CategoryId { get; set; }
         public string Categoryname { get; set; }
