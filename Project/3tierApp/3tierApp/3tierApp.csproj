@@ -144,6 +144,40 @@
     <Content Include="Dishlist.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Images\back.png" />
+    <Content Include="Images\Catagory.png" />
+    <Content Include="Images\feedback.png" />
+    <Content Include="Images\home.jpeg" />
+    <Content Include="Images\idly.jpeg" />
+    <Content Include="Images\logo.jpeg" />
+    <Content Include="Images\logout.jpeg" />
+    <Content Include="Images\sear.png" />
+    <Content Include="Images\searching.png" />
+    <Content Include="Images\uer.png" />
+    <Content Include="Images\wood.jpg" />
+    <Content Include="image\0364.jpg" />
+    <Content Include="image\1593.jpg" />
+    <Content Include="image\3181.jpg" />
+    <Content Include="image\3500.jpg" />
+    <Content Include="image\7142.jpg" />
+    <Content Include="image\8990.jpg" />
+    <Content Include="image\add cate.jpeg" />
+    <Content Include="image\background.jpeg" />
+    <Content Include="image\deleteicon.jpg" />
+    <Content Include="image\dish.png" />
+    <Content Include="image\editimage.jpg" />
+    <Content Include="image\feedback view.png" />
+    <Content Include="image\home icon.jpeg" />
+    <Content Include="image\hungry hive.jpeg" />
+    <Content Include="image\logout.jpeg" />
+    <Content Include="image\pexels-goumbik-349610 %281%29.jpg" />
+    <Content Include="image\pexels-milo-textures-1387944-2768398.jpg" />
+    <Content Include="image\pexels-pixabay-235992.jpg" />
+    <Content Include="image\pexels-scottwebb-3255761.jpg" />
+    <Content Include="image\rose.png" />
+    <Content Include="image\users logo.jpeg" />
+    <Content Include="image\view order.png" />
+    <Content Include="obj\Debug\3tierApp.csproj.FileListAbsolute.txt" />
     <Content Include="image\add cate.jpeg" />
     <Content Include="image\background.jpeg" />
     <Content Include="image\deleteicon.jpg" />
@@ -194,7 +228,9 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <Content Include="HomeUser.Master" />
+    <Content Include="obj\Debug\3tierApp.csproj.AssemblyReference.cache" />
+    <Content Include="obj\Debug\3tierApp.csproj.CoreCompileInputs.cache" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="Adminmaster.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -360,6 +396,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="bin\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
