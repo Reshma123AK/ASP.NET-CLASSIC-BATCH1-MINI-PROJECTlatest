@@ -6,7 +6,7 @@
             margin: 0 auto;
            padding: 0;
           background-image:url("Image/IMG-20240508-WA0021.jpg");
-           height: 700px;
+           height: 600px;
           color:azure;
         }
         .Hungry{
