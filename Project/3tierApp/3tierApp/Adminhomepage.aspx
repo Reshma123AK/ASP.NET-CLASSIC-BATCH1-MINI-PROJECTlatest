@@ -196,7 +196,7 @@
     <img src="Image/view%20order.png" alt="View Order Icon" class="auto-style7"/> View Order</a>
         <a href="" class="auto-style12">
     <img src="Image/dish.png" alt="Category List Icon" class="auto-style8" />Category List</a>
-         <a href="" class="auto-style9">
+         <a href="Adminfeedbackview.aspx" class="auto-style9">
      <img src="Image/feedback%20view.png" alt="Feedback Icon" class="auto-style8" />Feedback View</a>
          <a href="" class="auto-style11">
              <img src="Image/logout.jpeg" alt="Logout Icon" class="auto-style10"/>Logout</a>

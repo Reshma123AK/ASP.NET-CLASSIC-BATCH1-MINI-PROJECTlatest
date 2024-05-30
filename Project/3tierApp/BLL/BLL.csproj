@@ -41,6 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ADMIN\MANAGER\Adminfeedbackviewmanager.cs" />
+    <Compile Include="ADMIN\MANAGER\Adminmanager.cs" />
+    <Compile Include="ADMIN\Property\Categorypro.cs" />
+    <Compile Include="ADMIN\Property\Feedbackviewpro.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -50,5 +54,6 @@
       <Name>DAL</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
