@@ -16,6 +16,7 @@ namespace BLL.ADMIN.MANAGER
         private SortedList s1 = new SortedList();
         public Categorypro obj2 = new Categorypro();
 
+          
 public List<Categorypro> selectallcategory()
         {
             DataTable dt= new DataTable();
