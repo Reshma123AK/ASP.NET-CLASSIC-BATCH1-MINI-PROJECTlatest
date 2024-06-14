@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Adminmaster.Master.cs" Inherits="_3tierApp.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <style type="text/css">
+     .auto-style7 {
+         width: 97px;
+         height: 68px;
+     }
+     .auto-style8 {
+         width: 54px;
+         height: 36px;
+         margin-top: 0px;
+         margin-left: 126px;
+     }
+        body {
+}
+#masterdiv {
+    width: 1000px;
+    margin: 0 auto;
+    height: 70px;
+    background-color:saddlebrown;
+}
+#menu{
+    list-style:none;
+    
+}
+.menulist{
+    display:inline;
+}
+        .auto-style9 {
+            width: 48px;
+            height: 35px;
+        }
+        .auto-style10 {
+            height: 35px;
+             width: 43px;
+             margin-left: 0px;
+         }
+         .auto-style11 {
+             height: 35px;
+             margin-top: 0px;
+             width: 47px;
+         }
+         .auto-style12 {
+             height: 34px;
+             width: 48px;
+             margin-top: 0px;
+         }
+         .auto-style14 {
+             height: 33px;
+             width: 48px;
+             margin-top: 14px;
+         }
+         .auto-style15 {
+             width: 54px;
+             height: 35px;
+         }
+         .auto-style16 {
+             height: 61px;
+         }
+    </style>
+</head>
+<body style="height: 88px">
+    <form id="form1" runat="server">
+         <div id="masterdiv" class="auto-style16">
+            <ul id="menu">
+                <li class="menulist"> <img src="image/hungry%20hive.jpeg" class="auto-style7" />&nbsp;&nbsp;&nbsp;
+                    <li class="menulist"><img src="image/home%20icon.jpeg" class="auto-style8" />&nbsp;&nbsp;&nbsp; </li>
+                <li class="menulist"><a href="Userlist.aspx"><img src="image/users%20logo.jpeg" class="auto-style9" /></a></li>
+               <li class="menulist"><a href="Category add.aspx"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="image/add%20cate.jpeg" class="auto-style14" />&nbsp;&nbsp;&nbsp;&nbsp;</a> <a href="Dishlist.aspx">&nbsp;<img src="image/dish.png" class="auto-style12" />&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</a></li>
+
+                <li class="menulist"><a href="view order.aspx"> <img src="image/view%20order.png" class="auto-style10" />&nbsp;&nbsp;</a>&nbsp;&nbsp; </li>
+                <li class="menulist"> <img src="image/feedback%20view.png" class="auto-style11" /></li>
+                <li class="menulist">
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <img src="image/logout.jpeg" class="auto-style15" /></li>
+                 </ul></div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        
+    </form>
+</body>
+</html>

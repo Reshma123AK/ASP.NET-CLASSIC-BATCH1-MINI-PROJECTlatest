@@ -1,0 +1,136 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomeUser.master.cs" Inherits="_3tierApp.HomeUser" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+      /* body{
+           font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            
+
+       }*/
+      
+        #menu {
+            width: 1000px;
+            margin: 0 auto;
+            padding: 0;
+            height: 70px;
+            background-color:#E4E5DD;
+        }
+         #menu ul {
+     margin: 0;
+     list-style: none;
+     display: block;
+
+height: 32px;
+margin: 0;
+padding: 18px 30px 0 30px;
+text-decoration: none;
+ color: black;
+font-weight: bold;
+float: right;
+height: 32px;
+margin: 0;
+text-decoration: none;
+ font-family: 'Arial', sans-serif;
+     
+ }
+
+ #menu li {
+     display: inline;
+ }
+/* #menu a {
+ display: block;
+ float: right;
+ height: 32px;
+ margin: 0;
+ padding: 18px 30px 0 30px;
+ text-decoration: none;
+ text-transform: capitalize;
+    color: black;
+ font-weight: bold;
+    
+}
+*/
+
+
+
+        .auto-style1 {
+            width: 120px;
+        }
+        .auto-style2 {
+            width: 193px;
+        }
+
+        .auto-style3 {
+            width: 123px;
+            height: 70px;
+            margin-left: 113px;
+        }
+       
+        #Button1{
+           background-color: green;
+             color: black;
+            border: none;
+            border-radius:25px;
+      
+            font-size: 16px;
+            
+            font-weight: bold;
+           
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            cursor: pointer;
+
+           
+        }
+       #Button1:hover {
+    background-color: yellow;
+}
+
+#Button1:active {
+    background-color: blue;
+}
+    
+        .auto-style4 {
+            width: 959px;
+            
+                
+        }
+    
+        .auto-style5 {
+            width: 609px;
+        }
+    
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+   <div>
+        <div id="menu" class="auto-style4">
+            <ul id="main" class="auto-style5">
+           
+                <li><a>Home &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 </a></li>
+               <li><a class="auto-style2">&nbsp;&nbsp; AboutUs</a></li>
+               <li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="auto-style1">Contact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a><li>
+               &nbsp;<li><a><asp:Button ID="Button1" runat="server" Text="Login" Width="95px" /></a></li>
+            </ul>
+
+               <img class="auto-style3" src="Image/hungry%20hive.jpeg" /></div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+   </div>
+    </form>
+</body>
+</html>
