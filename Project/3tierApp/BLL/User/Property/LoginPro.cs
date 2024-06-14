@@ -18,4 +18,4 @@ namespace BLL.User.Property
         public string password { get; set; }
         public string status { get; set; }
     }
-}
+} 
