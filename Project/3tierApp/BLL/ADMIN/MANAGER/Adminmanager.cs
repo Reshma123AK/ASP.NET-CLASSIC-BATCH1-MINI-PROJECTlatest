@@ -12,10 +12,11 @@ namespace BLL.ADMIN.MANAGER
 {
     public class Adminmanager
     {
-        private DBhelpers DB_obj = new DBhelpers();
+        private DBHelper DB_obj = new DBHelper();
         private SortedList s1 = new SortedList();
         public Categorypro obj2 = new Categorypro();
 
+          
 public List<Categorypro> selectallcategory()
         {
             DataTable dt= new DataTable();

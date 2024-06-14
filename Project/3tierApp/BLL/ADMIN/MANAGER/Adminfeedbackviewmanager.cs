@@ -14,7 +14,7 @@ namespace BLL.ADMIN.MANAGER
 {
     public class Adminfeedbackviewmanager
     {
-        private DBhelpers Db_Obj = new DBhelpers();
+        private DBHelper Db_Obj = new DBHelper();
         public Feedbackviewpro Feedpro_Obj = new Feedbackviewpro();
         private SortedList S1 = new SortedList();
 
