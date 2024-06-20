@@ -262,6 +262,7 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="SearchDishes.aspx" />
     <Content Include="Site.Master" />
     <Content Include="Userlist.aspx" />
     <Content Include="view order.aspx" />

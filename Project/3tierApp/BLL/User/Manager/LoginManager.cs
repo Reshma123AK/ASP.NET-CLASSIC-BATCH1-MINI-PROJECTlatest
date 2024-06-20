@@ -46,6 +46,6 @@ namespace BLL.User.Manager
             return DB_Obj.GetDataTable("User_Select1",
                 new SqlParameter("@EmailId", email),
                 new SqlParameter("@Password", password));
-        }
+        } 
     }
 }
